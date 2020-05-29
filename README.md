@@ -3,6 +3,8 @@ Code and data for "Teodoridis, Florenta and Lu, Jinhong and Furman, Jeffrey L., 
 
 Introduce an approach based on an unassisted machine learning technique, Hierarchical Dirichlet Process (HDP), that flexibly generates categories from large scale text data and enables calculations of the distance and movement in ideas space.
 
+We use USPTO patent data from PatentsView (https://www.patentsview.org/download/)
+
 Please cite David Blei's work (http://www.cs.columbia.edu/~blei/). The code builds on topic modeling developed by his lab.
 
 This code is built on the code in https://github.com/florentta/Economics_of_Innovation
