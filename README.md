@@ -14,5 +14,5 @@ Output files:
 (1) assignee_hhi_diversification_measures.csv: This file contains the HDP- and CPC-based Herfindahl-Hirschman index (HHI) diversification measures for each USPTO assignee in each year between 1976 and 2019
 - hhi_hdp: the HDP-based HHI concentration measure
 - hhi_diversity_hdp: the HDP-based HHI diversification measure (i.e., 1-hhi_hdp)
-- hhi_cpc:the CPC-based HHI concentration measure
-- hhi_diversity_cpc: this is the CPC-based HHI diversification measure (i.e., 1-hhi_cpc)
+- hhi_cpc: the CPC-based HHI concentration measure
+- hhi_diversity_cpc: the CPC-based HHI diversification measure (i.e., 1-hhi_cpc)
