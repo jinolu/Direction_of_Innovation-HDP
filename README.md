@@ -3,11 +3,11 @@ Code and data for "Teodoridis, Florenta and Lu, Jino and Furman, Jeffrey L., Map
 
 Introduce an approach based on an unassisted machine learning technique, Hierarchical Dirichlet Process (HDP), that flexibly flexibly identifies patterns in large scale text corpora and enables the mapping of the knowledge landscape.
 
-We use USPTO patent data from PatentsView (https://www.patentsview.org/download/)
+We use USPTO patent data from PatentsView (https://patentsview.org/download/data-download-tables).
 
 Please cite David Blei's work (http://www.cs.columbia.edu/~blei/). The code builds on topic modeling developed by his lab.
 
-This code is built on the code in https://github.com/florentta/Economics_of_Innovation
+This code is built on the code in https://github.com/florentta/Economics_of_Innovation.
 
 
 **Output files:**
