@@ -6,4 +6,3 @@
 6.create_topic_distribution.py: Replace word IDs with actual words; filter the top 30 words describing each topic with corresponding probabilities; get topic-word distribution
 7.compute_topic_similarity.py: Compute pairwise weighted cosine similarity between the HDP topics
 8.HHI_diversification.py: (1) Match patents with patent assignees (or inventors, industries, or regions) (2) Compute HDP- and CPC-based HHI diversification measures for benchmarking
-
