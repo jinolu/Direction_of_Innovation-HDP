@@ -1,8 +1,8 @@
 **Replication**
 
-This folder contains the replication code to apply the algorithm to 44 years of USPTO utility patents between 1976 and 2019:
+This folder contains the replication code to apply the algorithm to 44 years of USPTO utility patents between 1976 and 2019. Please download the patent data from PatentsView (https://patentsview.org/download/data-download-tables) and run the following codes.
 
-1.clean_raw_patent.py: Clean raw data (drop duplicates, drop patents with less than five words in abstract); here we use the patent data from PatentsView as input for the application exercise (https://patentsview.org/download/data-download-tables)
+1.clean_raw_patent.py: Clean raw data (drop duplicates, drop patents with less than five words in abstract).
 
 2.create_hdp_input.py: (1) Create mappings of document IDs (document IDs required by the HDP to patent IDs) (2) Format the text: lowercasing, tokenization, removal of stop words, of words with single character or numbers only, and of punctuation characters, and lemmatization (3) Build bigrams (4) Create the bag-of-words format with word IDs to words mappings
 
