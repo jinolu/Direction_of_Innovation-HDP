@@ -9,7 +9,8 @@ Please cite David Blei's work (http://www.cs.columbia.edu/~blei/). The code buil
 
 This code is built on the code in https://github.com/florentta/Economics_of_Innovation
 
-Output files:
+
+**Output files:**
 
 (1) assignee_hhi_diversification_measures.csv: This file contains the HDP- and CPC-based Herfindahl-Hirschman index (HHI) diversification measures for each USPTO assignee in each year between 1976 and 2019
 - hhi_hdp: the HDP-based HHI concentration measure
