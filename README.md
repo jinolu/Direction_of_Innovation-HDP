@@ -1,7 +1,7 @@
 # Direction_of_Innovation-HDP
-Code and data for "Teodoridis, Florenta and Lu, Jino and Furman, Jeffrey L., Measuring the Direction of Innovation: Frontier Tools in Unassisted Machine Learning" https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3596233
+Code and data for "Teodoridis, Florenta and Lu, Jino and Furman, Jeffrey L., Mapping the Knowledge Space: Frontier Tools in Unassisted Machine Learning" https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3596233
 
-Introduce an approach based on an unassisted machine learning technique, Hierarchical Dirichlet Process (HDP), that flexibly generates categories from large scale text data and enables calculations of the distance and movement in ideas space.
+Introduce an approach based on an unassisted machine learning technique, Hierarchical Dirichlet Process (HDP), that flexibly flexibly identifies patterns in large scale text corpora and enables the mapping of the knowledge landscape.
 
 We use USPTO patent data from PatentsView (https://www.patentsview.org/download/)
 
