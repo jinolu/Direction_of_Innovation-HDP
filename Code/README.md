@@ -1,6 +1,6 @@
 **Replication**
 
-This folder contains the code to apply the algorithm to 44 years of USPTO utility patents between 1976 and 2019:
+This folder contains the replication code to apply the algorithm to 44 years of USPTO utility patents between 1976 and 2019:
 
 1.clean_raw_patent.py: Clean raw data (drop duplicates, drop patents with less than five words in abstract); here we use the patent data from PatentsView as input for the application exercise (https://patentsview.org/download/data-download-tables)
 
