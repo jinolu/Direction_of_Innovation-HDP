@@ -2,7 +2,9 @@
 
 2.create_hdp_input.py: (1) Create mappings of document IDs (document IDs required by the HDP to patent IDs) (2) Format the text: lowercasing, tokenization, removal of stop words, of words with single character or numbers only, and of punctuation characters, and lemmatization (3) Build bigrams (4) Create the bag-of-words format with word IDs to words mappings
 
-3.hdp-faster: Run the HDP algorithm and generate two sets of outputs
+3.hdp-faster: Run the HDP algorithm and generate two sets of outputs. To run this, please redirect to the 3.hdp-faster folder and run the following code:
+./hdp --verbose --train_data /**Your Directory**/Direction_of_Innovation-HDP/Code/1_preprocessed_vector/all_years.dat --directory /**Your Directory**/Direction_of_Innovation-HDP/Code/2_HDP_results --max_time -1 --max_iter 1000 --save_lag 50
+
 
 4.HDP_iteration_plot.py: Plot the likelihood metrics and algorithm-identified number of topics per number of iterations
 
