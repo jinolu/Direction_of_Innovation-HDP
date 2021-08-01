@@ -16,3 +16,10 @@ Output files:
 - hhi_diversity_hdp: the HDP-based HHI diversification measure (i.e., 1-hhi_hdp)
 - hhi_cpc: the CPC-based HHI concentration measure
 - hhi_diversity_cpc: the CPC-based HHI diversification measure (i.e., 1-hhi_cpc)
+
+(2) doc_topics.csv: This file contains the topic distribution for USPTO patents between 1976 and 2019
+- Document ID: USPTO patent id
+- Topic No: HDP-generated topics assigned to each patent
+- Probability: Topic probability 
+
+(3) topic_similarity.csv: This file contains the pairwise weighted cosine similarity between the HDP topics
